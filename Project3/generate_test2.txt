@@ -1,0 +1,9 @@
+CREATE 281class 4 string string bool int emotion person Y/N num
+INSERT INTO 281class 4 ROWS
+happy Akash true 1
+mad Aaira false 2
+sad Mike true 3
+cool Frank false 4
+GENERATE FOR 281class bst INDEX ON num
+PRINT FROM 281class 3 Y/N person num WHERE num > 1
+QUIT

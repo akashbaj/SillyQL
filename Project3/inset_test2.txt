@@ -1,0 +1,9 @@
+CREATE 281class 3 string string bool emotion person Y/N
+CREATE cities 5 string string int double bool name state population area is_capital?
+CREATE pets 3 string bool bool name like_cats? like_dogs?
+INSERT INTO cities 3 ROWS
+Ann_Arbor Michigan 120782 28.69 false Lansing Michigan 116020 36.89 true
+Miami Florida 453579 55.25 false
+REMOVE cities
+REMOVE pets
+QUIT

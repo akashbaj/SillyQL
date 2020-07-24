@@ -1,0 +1,40 @@
+# bug: the same row over and over again
+CREATE 281class 3 string string bool emotion person Y/N
+INSERT INTO 281class 33 ROWS
+happy Akash true
+happy Akash true
+happy Akash true
+happy Akash true
+happy Akash true
+happy Akash true
+happy Akash true
+happy Akash true
+happy Akash true
+happy Akash true
+happy Akash true
+happy Akash true
+happy Akash true
+happy Akash true
+happy Akash true
+happy Akash true
+happy Akash true
+happy Akash true
+happy Akash true
+happy Akash true
+happy Akash true
+happy Akash true
+happy Akash true
+happy Akash true
+happy Akash true
+happy Akash true
+happy Akash true
+happy Akash true
+happy Akash true
+happy Akash true
+happy Akash true
+happy Akash true
+happy Akash true
+happy Akash true
+GENERATE FOR 281class WHERE Y/N = true
+PRINT FROM 281 class 1 person ALL
+QUIT

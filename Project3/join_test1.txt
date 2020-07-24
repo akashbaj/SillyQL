@@ -1,0 +1,16 @@
+CREATE 281class 3 string string bool emotion person Y/N
+INSERT INTO 281class 5 ROWS
+happy Akash true
+mad Aaira false
+sad Mike true
+cool Frank false
+fun Akash false
+CREATE pets 3 string bool bool name like_cats? like_dogs?
+INSERT INTO pets 5 ROWS
+Akash false true
+Aaira false true
+Mike true true
+Frank false false
+Alices true true
+JOIN pets and 281class WHERE name = person AND PRINT 2 name 1 emotion 2
+QUIT

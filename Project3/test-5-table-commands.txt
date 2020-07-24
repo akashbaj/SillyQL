@@ -1,0 +1,27 @@
+CREATE 281class 3 string string bool emotion person Y/N
+INSERT INTO 281class 5 ROWS
+happy Akash true
+mad Aaira false
+sad Mike true
+cool Frank false
+fun Akash false
+CREATE pets 3 string bool bool name like_cats? like_dogs?
+INSERT INTO pets 5 ROWS
+Akash false true
+Aaira false true
+Mike true true
+Frank false false
+Alices true true
+DELETE FROM pets WHERE like_dogs? = like_cats?
+CREATE schedule 2 int string time activity
+INSERT INTO schedule 7 rows
+9 wake_up
+10 breakfast
+11 hw
+12 lunch
+1 hw
+2 nap
+3 nap
+JOIN pets AND schedule WHERE name = activity and PRINT 2 time 2 name 1
+JOIN pets and pets WHERE like_dogs? = like_cats? AND PRINT 3 name 1 like_cats? 1 like_dogs? 1
+QUIT

@@ -1,0 +1,9 @@
+CREATE pets 3 string bool bool name like_cats? like_dogs?
+INSERT INTO pets 5 ROWS
+Akash false true
+Aaira false true
+Mike true true
+Frank false false
+Alices true true
+PRINT FROM pets 2 name like_dogs? WHERE like_dogs? = true
+QUIT

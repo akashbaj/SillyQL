@@ -1,0 +1,8 @@
+# bug: insert rows are not the same length 
+CREATE 281class 3 string string bool emotion person Y/N
+INSERT INTO 281class 3 ROWS
+happy Akash false
+mad Aaira false
+sad Mike true
+PRINT FROM 281 class 1 person ALL
+QUIT

@@ -1,0 +1,15 @@
+CREATE 281class 3 string string bool emotion person Y/N
+INSERT INTO 281class 5 ROWS
+happy Akash true
+mad Aaira false
+sad Mike true
+cool Frank false
+fun Akash false
+REMOVE 281class
+CREATE 281class 3 string string bool emotion person Y/N
+INSERT INTO 281class 3 ROWS
+happy Akash true
+mad Aaira false
+sad Mike true
+PRINT FROM 281class 1 person ALL
+QUIT

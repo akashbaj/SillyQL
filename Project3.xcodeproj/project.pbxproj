@@ -7,7 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		382DEEA3241AE19E001C7B5C /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 382DEEA2241AE19E001C7B5C /* main.cpp */; };
+		382DEEB3241AE1C5001C7B5C /* TableEntry.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 382DEEAF241AE1C5001C7B5C /* TableEntry.cpp */; };
+		382DEEBC241AE395001C7B5C /* silly.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 382DEEBB241AE395001C7B5C /* silly.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -23,8 +24,54 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		380E0F4A242D2D0D00DA51DA /* recreate_table.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = recreate_table.txt; sourceTree = "<group>"; };
+		380E0F4B242D387700DA51DA /* test-2-table-commands.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "test-2-table-commands.txt"; sourceTree = "<group>"; };
+		380E0F4C242D387700DA51DA /* test-4-table-commands.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "test-4-table-commands.txt"; sourceTree = "<group>"; };
+		380E0F4D242D387700DA51DA /* test-3-table-commands.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "test-3-table-commands.txt"; sourceTree = "<group>"; };
+		380E0F4E242D387700DA51DA /* test-1-table-commands.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "test-1-table-commands.txt"; sourceTree = "<group>"; };
+		3823304D24292FCE009ACA4C /* generate_hash1.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = generate_hash1.txt; sourceTree = "<group>"; };
+		3823304E242930F7009ACA4C /* generate_hash2.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = generate_hash2.txt; sourceTree = "<group>"; };
 		382DEE9F241AE19E001C7B5C /* Project3 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Project3; sourceTree = BUILT_PRODUCTS_DIR; };
-		382DEEA2241AE19E001C7B5C /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		382DEEA9241AE1C5001C7B5C /* checkpoint_3_input.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = checkpoint_3_input.txt; sourceTree = "<group>"; };
+		382DEEAA241AE1C5001C7B5C /* checkpoint_2_output.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = checkpoint_2_output.txt; sourceTree = "<group>"; };
+		382DEEAB241AE1C5001C7B5C /* checkpoint_1_output.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = checkpoint_1_output.txt; sourceTree = "<group>"; };
+		382DEEAC241AE1C5001C7B5C /* checkpoint_1_input.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = checkpoint_1_input.txt; sourceTree = "<group>"; };
+		382DEEAD241AE1C5001C7B5C /* checkpoint_3_output.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = checkpoint_3_output.txt; sourceTree = "<group>"; };
+		382DEEAE241AE1C5001C7B5C /* spec_input.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = spec_input.txt; sourceTree = "<group>"; };
+		382DEEAF241AE1C5001C7B5C /* TableEntry.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TableEntry.cpp; sourceTree = "<group>"; };
+		382DEEB0241AE1C5001C7B5C /* TableEntry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableEntry.h; sourceTree = "<group>"; };
+		382DEEB1241AE1C5001C7B5C /* checkpoint_2_input.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = checkpoint_2_input.txt; sourceTree = "<group>"; };
+		382DEEB2241AE1C5001C7B5C /* spec_output.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = spec_output.txt; sourceTree = "<group>"; };
+		382DEEB5241AE1DD001C7B5C /* README-P3-samples.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "README-P3-samples.txt"; sourceTree = "<group>"; };
+		382DEEB6241AE1DD001C7B5C /* long-quiet-input.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "long-quiet-input.txt"; sourceTree = "<group>"; };
+		382DEEB7241AE1DD001C7B5C /* short-input.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "short-input.txt"; sourceTree = "<group>"; };
+		382DEEB8241AE1DD001C7B5C /* long-quiet-output.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "long-quiet-output.txt"; sourceTree = "<group>"; };
+		382DEEB9241AE1DD001C7B5C /* short-output.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "short-output.txt"; sourceTree = "<group>"; };
+		382DEEBA241AE1DD001C7B5C /* spec_example.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = spec_example.txt; sourceTree = "<group>"; };
+		382DEEBB241AE395001C7B5C /* silly.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = silly.cpp; sourceTree = "<group>"; };
+		3843D3B8242A659B00C6277F /* Makefile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
+		3843D3B9242A73B300C6277F /* generate_6.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = generate_6.txt; sourceTree = "<group>"; };
+		3843D3BA242AF5FA00C6277F /* test-15-table-commands.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "test-15-table-commands.txt"; sourceTree = "<group>"; };
+		3843D3BB242AF71500C6277F /* test-14-table-commands.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "test-14-table-commands.txt"; sourceTree = "<group>"; };
+		3843D3BC242AFA9400C6277F /* test-13-table-commands.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "test-13-table-commands.txt"; sourceTree = "<group>"; };
+		3843D3BD242AFB6900C6277F /* test-12-table-commands.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "test-12-table-commands.txt"; sourceTree = "<group>"; };
+		3843D3BE242AFCB900C6277F /* test-11-table-commands.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "test-11-table-commands.txt"; sourceTree = "<group>"; };
+		3843D3BF242AFDA800C6277F /* test-10-table-commands.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "test-10-table-commands.txt"; sourceTree = "<group>"; };
+		3843D3C0242AFE4400C6277F /* test-8-table-commands.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "test-8-table-commands.txt"; sourceTree = "<group>"; };
+		3843D3C1242AFF9000C6277F /* test-7-table-commands.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "test-7-table-commands.txt"; sourceTree = "<group>"; };
+		3843D3C2242B00CD00C6277F /* test-6-table-commands.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "test-6-table-commands.txt"; sourceTree = "<group>"; };
+		38455CFC242872B100997FFE /* generate_test2.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = generate_test2.txt; sourceTree = "<group>"; };
+		38455CFD2428735A00997FFE /* generate_test3.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = generate_test3.txt; sourceTree = "<group>"; };
+		38A4E1F524231DB50094CBE5 /* print_where_test.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = print_where_test.txt; sourceTree = "<group>"; };
+		38A73C192423D6BC00F5DFA8 /* print_where_test2.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = print_where_test2.txt; sourceTree = "<group>"; };
+		38A73C1A2423EF9400F5DFA8 /* print_where_test3.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = print_where_test3.txt; sourceTree = "<group>"; };
+		38B54F4D24212FCB00835C70 /* INSERT_TEST.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = INSERT_TEST.txt; sourceTree = "<group>"; };
+		38B54F4E242143E900835C70 /* inset_test2.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = inset_test2.txt; sourceTree = "<group>"; };
+		38BE75892420223900F6E605 /* xcode_redirect.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = xcode_redirect.hpp; sourceTree = "<group>"; };
+		38DE9436242C393600670DD1 /* test-5-table-commands.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "test-5-table-commands.txt"; sourceTree = "<group>"; };
+		38DFB43A24285C0100933938 /* generate_test1.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = generate_test1.txt; sourceTree = "<group>"; };
+		38FF1039242566BC0045A51F /* join_test1.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = join_test1.txt; sourceTree = "<group>"; };
+		38FF103A242576780045A51F /* delete_from_test1.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = delete_from_test1.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,9 +104,63 @@
 		382DEEA1241AE19E001C7B5C /* Project3 */ = {
 			isa = PBXGroup;
 			children = (
-				382DEEA2241AE19E001C7B5C /* main.cpp */,
+				380E0F4E242D387700DA51DA /* test-1-table-commands.txt */,
+				380E0F4B242D387700DA51DA /* test-2-table-commands.txt */,
+				380E0F4D242D387700DA51DA /* test-3-table-commands.txt */,
+				380E0F4C242D387700DA51DA /* test-4-table-commands.txt */,
+				380E0F4A242D2D0D00DA51DA /* recreate_table.txt */,
+				38DE9436242C393600670DD1 /* test-5-table-commands.txt */,
+				3843D3C2242B00CD00C6277F /* test-6-table-commands.txt */,
+				3843D3C1242AFF9000C6277F /* test-7-table-commands.txt */,
+				3843D3C0242AFE4400C6277F /* test-8-table-commands.txt */,
+				3843D3BF242AFDA800C6277F /* test-10-table-commands.txt */,
+				3843D3BE242AFCB900C6277F /* test-11-table-commands.txt */,
+				3843D3BD242AFB6900C6277F /* test-12-table-commands.txt */,
+				3843D3BC242AFA9400C6277F /* test-13-table-commands.txt */,
+				3843D3BB242AF71500C6277F /* test-14-table-commands.txt */,
+				3843D3BA242AF5FA00C6277F /* test-15-table-commands.txt */,
+				3843D3B9242A73B300C6277F /* generate_6.txt */,
+				3823304E242930F7009ACA4C /* generate_hash2.txt */,
+				3823304D24292FCE009ACA4C /* generate_hash1.txt */,
+				38455CFD2428735A00997FFE /* generate_test3.txt */,
+				38455CFC242872B100997FFE /* generate_test2.txt */,
+				38DFB43A24285C0100933938 /* generate_test1.txt */,
+				38FF103A242576780045A51F /* delete_from_test1.txt */,
+				38FF1039242566BC0045A51F /* join_test1.txt */,
+				38A73C1A2423EF9400F5DFA8 /* print_where_test3.txt */,
+				38A73C192423D6BC00F5DFA8 /* print_where_test2.txt */,
+				38A4E1F524231DB50094CBE5 /* print_where_test.txt */,
+				38B54F4E242143E900835C70 /* inset_test2.txt */,
+				38B54F4D24212FCB00835C70 /* INSERT_TEST.txt */,
+				38BE75892420223900F6E605 /* xcode_redirect.hpp */,
+				3843D3B8242A659B00C6277F /* Makefile */,
+				382DEEB4241AE1DD001C7B5C /* P3-Larger-Samples-Mac-Unix */,
+				382DEEAC241AE1C5001C7B5C /* checkpoint_1_input.txt */,
+				382DEEAB241AE1C5001C7B5C /* checkpoint_1_output.txt */,
+				382DEEB1241AE1C5001C7B5C /* checkpoint_2_input.txt */,
+				382DEEAA241AE1C5001C7B5C /* checkpoint_2_output.txt */,
+				382DEEA9241AE1C5001C7B5C /* checkpoint_3_input.txt */,
+				382DEEAD241AE1C5001C7B5C /* checkpoint_3_output.txt */,
+				382DEEAE241AE1C5001C7B5C /* spec_input.txt */,
+				382DEEB2241AE1C5001C7B5C /* spec_output.txt */,
+				382DEEAF241AE1C5001C7B5C /* TableEntry.cpp */,
+				382DEEB0241AE1C5001C7B5C /* TableEntry.h */,
+				382DEEBB241AE395001C7B5C /* silly.cpp */,
 			);
 			path = Project3;
+			sourceTree = "<group>";
+		};
+		382DEEB4241AE1DD001C7B5C /* P3-Larger-Samples-Mac-Unix */ = {
+			isa = PBXGroup;
+			children = (
+				382DEEB5241AE1DD001C7B5C /* README-P3-samples.txt */,
+				382DEEB6241AE1DD001C7B5C /* long-quiet-input.txt */,
+				382DEEB7241AE1DD001C7B5C /* short-input.txt */,
+				382DEEB8241AE1DD001C7B5C /* long-quiet-output.txt */,
+				382DEEB9241AE1DD001C7B5C /* short-output.txt */,
+				382DEEBA241AE1DD001C7B5C /* spec_example.txt */,
+			);
+			path = "P3-Larger-Samples-Mac-Unix";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -119,7 +220,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				382DEEA3241AE19E001C7B5C /* main.cpp in Sources */,
+				382DEEBC241AE395001C7B5C /* silly.cpp in Sources */,
+				382DEEB3241AE1C5001C7B5C /* TableEntry.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

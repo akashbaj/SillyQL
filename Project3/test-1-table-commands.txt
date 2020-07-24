@@ -1,0 +1,10 @@
+# bug: one item to insert is does not match the data type of the column
+CREATE 281class 3 string string bool emotion person Y/N
+Insert INTO 281class 3 ROWS
+happy Akash true
+mad Aaira false
+sad Mike true
+PRINT FROM 281 class 1 person ALL
+JOIN 281class AND 281class WHERE person = person
+#QUIT
+QUIT

@@ -1,0 +1,10 @@
+CREATE cities 5 string string int double bool name state population area is_capital?
+INSERT INTO cities 5 ROWS
+Ann_Arbor Michigan 120782 28.69 false
+Lansing Michigan 116020 36.89 true
+Miami Florida 453579 55.25 false
+Chicago Illinois 500000 63.25 true
+Princeton New_Jersey 100 72 false
+GENERATE FOR cities bst INDEX ON population
+PRINT FROM cities 3 name state population WHERE population > 100
+QUIT

@@ -1,0 +1,23 @@
+# Error Check: creating duplicate table
+cREATE 281class 3 string string bool emotion person Y/N
+cREATE 281class 3 bool bool string yes no maybe
+iNSERT INTO 281class 8 ROWS
+happy Darden true
+stressed students false
+busy office_hours true
+stressed students true
+stressed Paoletti true
+happy Darden true
+happy Sith true
+victorious Sith true
+dELETE FROM 281class WHERE person > Darden
+gENERATE FOR 281class hashBSt INDEX ON emotion
+pRINT FROM 281class 2 person emotion WHERE Y/N = true
+cREATE pets 3 string bool bool Name likes_cats? likes_dogs?
+iNSERT INTO pets 2 ROWS
+sith true true
+paoletti true false
+jOIN pets AND 281class WHERE Name = person AND PRINT 3 Name 1 emotion 2 likes_dogs? 1
+rEMOVE pets
+rEMOVE 281class
+QUIT
